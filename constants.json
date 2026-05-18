@@ -1,0 +1,50 @@
+{
+  "crops": {
+    "rice": {
+      "target_yield": 5,
+      "target_yield_by_season": {
+        "Kuruvai": 4.5,
+        "Samba": 5.5
+      },
+      "nutrient_per_ton": {
+        "N": 20,
+        "P": 8,
+        "K": 25
+      }
+    },
+    "maize": {
+      "target_yield": 6,
+      "nutrient_per_ton": {
+        "N": 25,
+        "P": 10,
+        "K": 20
+      }
+    },
+    "sorghum": {
+      "target_yield": 4,
+      "nutrient_per_ton": {
+        "N": 18,
+        "P": 8,
+        "K": 20
+      }
+    },
+    "pearl_millet": {
+      "target_yield": 3.5,
+      "nutrient_per_ton": {
+        "N": 15,
+        "P": 6,
+        "K": 15
+      }
+    }
+  },
+  "efficiency": {
+    "N": 0.5,
+    "P": 0.3,
+    "K": 0.6
+  },
+  "fertilizers": {
+    "urea": 0.46,
+    "ssp": 0.16,
+    "mop": 0.6
+  }
+}
