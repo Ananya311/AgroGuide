@@ -201,26 +201,6 @@ This creates the local retrieval index inside `vectorstore/`.
 
 Run ingestion again whenever you add, remove, or update PDFs in `documents/`.
 
-## Run the App
-
-Start Streamlit:
-
-```powershell
-streamlit run app.py
-```
-
-Then open the local URL shown in the terminal, usually:
-
-```text
-http://localhost:8501
-```
-
-If the vector store already exists and the documents have not changed, you can skip `python ingest.py` and run only:
-
-```powershell
-streamlit run app.py
-```
-
 ## How RAG Works
 
 1. PDFs are processed by `ingest.py`.
@@ -303,3 +283,6 @@ streamlit run app.py
 AgroGuide is not a prompt-only chatbot. It first calculates fertilizer quantities using deterministic formulas, then retrieves document context, and only then asks the language model to explain the fixed recommendation.
 
 This makes the system more traceable and safer than asking an LLM to invent fertilizer quantities directly.
+
+## License
+Built for learning and portfolio purposes — feel free to explore, fork, and experiment!
